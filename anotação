@@ -1,0 +1,9 @@
+git init  = uso para iniciar um projeto no GIT 
+git add = uso para adicionar um arquivo
+git commit -m "comentario" = faço o commit
+git status = mostro o status da branch
+git show = mostro as ultimas alterações feitas
+ls -al = listo todos os arquivos da branch
+git branch nomeBranch = criou uma nova branch (ramificação)
+git checkout nomeBranch = entro em uma branch
+git branch -D nomeBranch = deleto a branch
