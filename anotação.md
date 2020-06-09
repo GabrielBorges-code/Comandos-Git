@@ -31,3 +31,4 @@
 **git remote -v** = mostra o repositorios online
 no primeiro push 'preciso fazer:
 **git push -u origin master** = enviar para a nuvem
+**git add .** = vai add tudo na pasta
