@@ -1,2 +1,0 @@
-alterando uma linha
-comunista!

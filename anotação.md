@@ -28,11 +28,20 @@
 
 ##Enviando para GitHub
 **git remote add origin** *link*  = adiciona o repositório
+
 **git remote -v** = mostra o repositorios online
 no primeiro push 'preciso fazer:
+
 **git push -u origin master** = enviar para a nuvem
+
 **git add .** = vai add tudo na pasta
+
 **git config credential.helper store** = tira a necessidade de logar toda hora
+
 **git clone** *link* = copio um repositorio
+
 **checkout -b nomeBranch** = forma mais rapida de criar e de mudar de branch
+
 **git pull** = verifica o que tem na nuvem 
+
+**git commit -am "comentario"** = commit  + add
