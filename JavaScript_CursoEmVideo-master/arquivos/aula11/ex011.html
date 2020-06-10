@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+</head>
+<body>
+    <h1>Verificando se você é estrangeiro</h1>
+    Digite seu país de origem: <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="resultado">
+
+    </div>
+
+    <script>
+        
+        function verificar(){
+            var txtpaisdigitado = document.querySelector('input#txtpais').value
+            var paisdigitado = document.querySelector('div#resultado')
+            if(txtpaisdigitado == 'Brasil'){
+                paisdigitado.innerHTML = 'Tu es Brasileiro'
+            }else if (txtpaisdigitado == 'EUA' || txtpaisdigitado == 'Estados Unidos'){
+                paisdigitado.innerHTML = `tu es Americano`
+
+            }else{
+                paisdigitado.innerHTML = `tu não mora nem nos EUA nem no BR`
+            }
+            
+        }
+    </script>
+</body>
+</html>
