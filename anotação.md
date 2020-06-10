@@ -32,3 +32,5 @@
 no primeiro push 'preciso fazer:
 **git push -u origin master** = enviar para a nuvem
 **git add .** = vai add tudo na pasta
+**git config credential.helper store** = tira a necessidade de logar toda hora
+**git clone** *link* = copio um repositorio
