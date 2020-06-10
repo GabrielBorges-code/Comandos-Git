@@ -34,3 +34,5 @@ no primeiro push 'preciso fazer:
 **git add .** = vai add tudo na pasta
 **git config credential.helper store** = tira a necessidade de logar toda hora
 **git clone** *link* = copio um repositorio
+**checkout -b nomeBranch** = forma mais rapida de criar e de mudar de branch
+**git pull** = verifica o que tem na nuvem 
