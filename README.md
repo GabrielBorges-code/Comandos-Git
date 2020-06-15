@@ -1,6 +1,6 @@
 # Comando Git
 
-##Comandos iniciais
+## Comandos iniciais
 **git init**  = uso para iniciar um projeto no GIT 
 
 **git add** = uso para adicionar/atualiza um arquivo
@@ -13,7 +13,7 @@
 
 **git show** = apresenta determinado ponto na historia
 
-##Comandos Branch
+## Comandos Branch
 
 **ls -al** = listo todos os arquivos da branch
 
@@ -26,7 +26,7 @@
 **git branch -D nomeBranch** = deleto a branch
 
 
-##Enviando para GitHub
+## Enviando para GitHub
 **git remote add origin** *link*  = adiciona o repositório
 
 **git remote -v** = mostra o repositorios online
