@@ -19,7 +19,7 @@
 
 **git branch nomeBranch** = criou uma nova branch (ramificação)
 
-**git push -u origin <branch>** = enviar a branch para nuvem
+**git push -u origin nomeBranch** = enviar a branch para nuvem
 
 **git checkout nomeBranch** = entro em uma branch
 
